@@ -7,7 +7,7 @@ const RESOURCES = {
 "native_bridge.js": "3ab3a7e0ed1e5a32bd5b9b32f876052c",
 "index.html": "f509f1b9e9a476b695a9e865e40edd6f",
 "/": "f509f1b9e9a476b695a9e865e40edd6f",
-"main.dart.js": "9acf282feada7be7bbeed95ebaa8d050",
+"main.dart.js": "1b2d8b80ee52b8d802f6550b55179517",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "b2da32757322e11f0e061b28321b83b1",
