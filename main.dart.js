@@ -32039,7 +32039,7 @@ $1:function(a){J.aVl(this.a.$0())
 J.bju(self.window.CanvasKitInit({locateFile:P.ux(new H.aTT())}),P.ux(new H.aTU(this.b)))},
 $S:22}
 H.aTT.prototype={
-$2:function(a,b){return C.c.a4("custom-scheme://unpkg.com/canvaskit-wasm@0.24.0/bin/",a)},
+$2:function(a,b){return C.c.a4("https://unpkg.com/canvaskit-wasm@0.24.0/bin/",a)},
 $C:"$2",
 $R:2,
 $S:482}
@@ -111926,7 +111926,7 @@ return H.a([$.abK(),$.abL(),$.abI(),$.abJ(),H.e_("Noto Naskh Arabic UI",H.a([H.a
 r($,"bGV","yU",function(){var p=t.V0
 return new H.UI(new H.as0(),P.bF(p),P.J(t.N,p))})
 r($,"bGQ","bg7",function(){return new H.aTP()})
-s($,"bGC","bg0",function(){return"custom-scheme://unpkg.com/canvaskit-wasm@0.24.0/bin/canvaskit.js"})
+s($,"bGC","bg0",function(){return"https://unpkg.com/canvaskit-wasm@0.24.0/bin/canvaskit.js"})
 s($,"bDm","abD",function(){return new H.a0C(1024,new P.H2(H.K("H2<e0<R>>")),P.J(H.K("e0<R>"),H.K("iK<e0<R>>")))})
 s($,"bAw","bbS",function(){return new self.window.flutterCanvasKit.Paint()})
 s($,"bAv","bbR",function(){var p=new self.window.flutterCanvasKit.Paint()
