@@ -7,12 +7,12 @@ const RESOURCES = {
 "native_bridge.js": "3ab3a7e0ed1e5a32bd5b9b32f876052c",
 "index.html": "f509f1b9e9a476b695a9e865e40edd6f",
 "/": "f509f1b9e9a476b695a9e865e40edd6f",
-"main.dart.js": "faca55bbbdb9a14d8d1bd2e420710337",
+"main.dart.js": "efbf2ffbc74fec2434b527cb7e2cfe7b",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "b2da32757322e11f0e061b28321b83b1",
 "assets/AssetManifest.json": "bdea3121ec9a279d7233b19fc6b25dfe",
-"assets/NOTICES": "b1b9bfd20a56e36bbea47499b98ad171",
+"assets/NOTICES": "1c0fb9aef91838704b15d95d727ca191",
 "assets/FontManifest.json": "9e0649c90f16a7be3d51ab27d6089604",
 "assets/packages/flutter_neumorphic/fonts/NeumorphicIcons.ttf": "32be0c4c86773ba5c9f7791e69964585",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
@@ -80,7 +80,7 @@ const RESOURCES = {
 "assets/packages/nuclei_core/assets/lang/en.json": "33a6a75029e2ba4fe5da8d71e0a3ba24",
 "assets/packages/nuclei_core/assets/raw/certificate.pem": "96141e69a3fd3e6ed9f193bd799b21be",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1"
+"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -98,7 +98,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value, {'cache': 'reload'})));
+        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
     })
   );
 });
