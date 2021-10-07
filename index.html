@@ -31,7 +31,8 @@
     <!-- TODO(your_username): Remove when https://github.com/flutter/engine/pull/29038 will be merged to stable -->
     <script src="https://unpkg.com/platform@1.3.5/platform.js"></script>
     <script type="text/javascript">
-    alert(platform.name.toLowerCase());
+    console.log('js-log platform name '+platform.name.toLowerCase());
+    console.log('js-log version '+parseInt(platform.version.split(".")[0]));
   if (platform.name.toLowerCase() == "safari") {
    HTMLCanvasElement.prototype.getContext = function (orig) {
      return function(type) {
