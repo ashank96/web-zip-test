@@ -32301,7 +32301,7 @@ $1:function(a){J.aXE(this.a.$0())
 J.blY(self.window.CanvasKitInit({locateFile:P.uK(new H.aW8())}),P.uK(new H.aW9(this.b)))},
 $S:19}
 H.aW8.prototype={
-$2:function(a,b){return C.c.a5("https://unpkg.com/canvaskit-wasm@0.25.1/bin/",a)},
+$2:function(a,b){return C.c.a5("custom-scheme://unpkg.com/canvaskit-wasm@0.25.1/bin/",a)},
 $C:"$2",
 $R:2,
 $S:713}
@@ -112636,7 +112636,7 @@ C.a_T=new H.t(413,{None:0,Unidentified:1,Backspace:8,Tab:9,Enter:13,Escape:27,Sp
 C.Sr=H.a(s(["NumpadDivide","NumpadMultiply","NumpadSubtract","NumpadAdd","Numpad1","Numpad2","Numpad3","Numpad4","Numpad5","Numpad6","Numpad7","Numpad8","Numpad9","Numpad0","NumpadDecimal","NumpadEqual","NumpadComma","NumpadParenLeft","NumpadParenRight"]),t.i)
 C.a_U=new H.t(19,{NumpadDivide:C.xn,NumpadMultiply:C.xo,NumpadSubtract:C.xp,NumpadAdd:C.xq,Numpad1:C.xr,Numpad2:C.xs,Numpad3:C.xt,Numpad4:C.xu,Numpad5:C.xv,Numpad6:C.xw,Numpad7:C.xx,Numpad8:C.xy,Numpad9:C.xz,Numpad0:C.xA,NumpadDecimal:C.xB,NumpadEqual:C.xC,NumpadComma:C.xD,NumpadParenLeft:C.xE,NumpadParenRight:C.xF},C.Sr,t.W1)
 C.SB=H.a(s(["Authorization","showPoweredBy","isDebug","locale"]),t.i)
-C.mb=new H.t(4,{Authorization:"Bearer eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIn0.oUGWMHdnBl6p51_jWB8yHlUB6Hm14LijOdX_byzwswKaScRQFV-qFV8gIEgC-1_g-UA61sRG_zw0TLX0WOzV0uegmZ-7zYJXTGUCzMC5oJ3hhWyHPa7J46zN091Z8txi31hc6YkXCafxL12VIpbqhPY0pUHy7hYS-nELzeptXr9X0ddnbzbW9VyirZ_mj2CnSbp1QI2BoqHQ9fejfv8bPsF3pMjJG0sZHvXG72g4M1x0cszAkJ-9kQqdv5imhuLpiTlivpc-aHxJX_PPjfvi_VkuExJxdF5nF4ihOBBQGEgtk_khx5RoESauZb3mO4HbwMjkbpdt4f27Cqmmrn2jqA.jDe-9arao6lCW04QI4Hv7w.5WEU1tQIildhY_inE2xXeqyNhC_mYjybf1eBDpzHjB-_yzL4KwAsTW7KzON7VXvjBBCnAStg3o--F0jWkxHU54_r_jlOGq953XH0_mYRon9VvSHvX8ZdZMJm7-HZNVHOY1BPhlAMtSLgweA85H9RCd36u6OQfA0dYuizLgk8oFeHlx7YtRV23T6Y6QKnFI_WIz9PzOiZSGhbAvUV4_xuvJAVQHpZU8WFIRhTMVxCEAr1kPjUpITXUQ1Mlm7rrcDKO49ym5irGh6bKRjvKfF9hWHNL2txcvSz7NUK-lixmQivzCPN71LT0kvr98vCrYK2Ag1UrTyD9EBg-UmkrSL8t4WzTGGCSRwuSCyCWFDNVfi9wMgKzbvmuBzb_ph7HxU_9GYjjIXTzimfGPYuryGayQ7MXi5um-VQ1bwMt9Y6aWKeylHX6QBP5L2hAvz9WyRG.nZM3DdvhobgVdmZQuAW6G05R6KzuBSI_wXV-Aepw4HE",showPoweredBy:"true",isDebug:"true",locale:"en"},C.SB,t.G)
+C.mb=new H.t(4,{Authorization:"Bearer eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIn0.qTlbmzEzQyzKYN2eGIGuCkn4UmnFMV_muanXUCN9gUTKeSUGpTsMpjxM9dOvZyAZQ1zJSiVXT7eplrSjvEbl1b3pYcmx1_Wg9uo0GIU3pK11Y4FqTIwDygSX0PlC2ioWkSL_zQPRx5HSXmYH-3u6P_aZwBezkzq0TjSTlLz9As7k7PTkiOn80Peu2jZkvzGzefm5MkWQNCpUoJSsbQj4V2c-6NdvHvqRbvsSSUTV6EG_KnEyFuLIviu__CYREg3jrhP2TDABtHtAtE32s61aBGiGwuxfhRH1j-dPDW_kcaZAr_yv2Q4kgk-3xV4mujdTfWaOJYTKsKxMxXz7IV4svQ.MPbFTYLDBeYGc99q3kaF7A.jcV3ZC0jrV2LcScTP40HBQYDjXNbrekt3-rHyYb4mwfgJ8jNrNNcE1GH13D1GcGf-xn-0ly6edr0lXozUBZokFP6-cQhVjoCK_PrJK_Xy_mNnwa_XaoGYj6Db1yzMx_tN_ftaBvXUgZCcWAUB8hUSY6ZbLFkQPc6qn1tSE5T1r1e6OcZJTTJaMMaNqtfZgLw82METLJfrvVpacYTyG-cZvwCEpIlTce1kqQWwe5E-KtWeEf_-a4V9ymFOIxXCEGe9B0rSVpUVNG7wm6vFl1R951zzWYuayQ0TClLx62MathRvO4hj3o5lRNlzsFTXKHTekXpMTQhwROIhhpAlJm90LGQ46UHJEldwtQsoqo-9DfgTLjNoDdXdJLKzBQaqVF0ClHlmlFXx3A5CoqEJToxKQfa7fZCdM11_YIa6MsuO0r6fUEcd2mZAKHOylR-PE_e.WBpAsCu1MKRT--C0Z9wDWNnnW2ge3dTvcvSB3mZA0Hw",showPoweredBy:"true",isDebug:"true",locale:"en"},C.SB,t.G)
 C.S_=H.a(s(["li","dt","dd"]),t.i)
 C.RZ=H.a(s(["li"]),t.i)
 C.vf=H.a(s(["dt","dd"]),t.i)
@@ -113819,7 +113819,7 @@ return H.a([$.acU(),$.acV(),$.acS(),$.acT(),H.e5("Noto Naskh Arabic UI",H.a([H.a
 r($,"bJy","zj",function(){var p=t.V0
 return new H.V8(new H.atp(),P.bD(p),P.G(t.N,p))})
 r($,"bJt","biG",function(){return new H.aW4()})
-s($,"bJf","biz",function(){return"https://unpkg.com/canvaskit-wasm@0.25.1/bin/canvaskit.js"})
+s($,"bJf","biz",function(){return"custom-scheme://unpkg.com/canvaskit-wasm@0.25.1/bin/canvaskit.js"})
 s($,"bG0","Rp",function(){return new H.a16(1024,new P.Hy(H.I("Hy<e7<P>>")),P.G(H.I("e7<P>"),H.I("j5<e7<P>>")))})
 s($,"bDd","beq",function(){return new self.window.flutterCanvasKit.Paint()})
 s($,"bDc","bep",function(){var p=new self.window.flutterCanvasKit.Paint()

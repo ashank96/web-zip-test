@@ -5,9 +5,10 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "6cc20cb4e91c30bed6e35b4fdd1c39d3",
 "native_bridge.js": "3ab3a7e0ed1e5a32bd5b9b32f876052c",
-"index.html": "fdde859511a86773744724a86fc7fa3f",
-"/": "fdde859511a86773744724a86fc7fa3f",
-"main.dart.js": "10a24db6b40d80c305d9a7e2d43297db",
+"index.html": "f533d11013e10336a58ee5fa51376d29",
+"/": "f533d11013e10336a58ee5fa51376d29",
+"main.dart.js": "b8fb34f4430147bbb26f79cd6a139e01",
+"canvaskit.js": "2975cc8c19a4a60705899a751f98bfa4",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "b2da32757322e11f0e061b28321b83b1",
